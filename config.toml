@@ -1,6 +1,6 @@
 baseURL = "https://zhibo-yan.github.io/blogs"
 DefaultContentLanguage = "en" # Theme's display language, supports: en, fr, zh, zh-hant
-languageCode = "en-us"
+languageCode = "zh"
 title = "饮者"
 copyright = "This is a customized copyright."
 theme = "diary"
