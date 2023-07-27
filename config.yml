@@ -7,7 +7,6 @@ enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-math: true
 
 googleAnalytics: UA-123-45
 
@@ -52,10 +51,11 @@ params:
     apple_touch_icon: "<link / abs url>"
     safari_pinned_tab: "<link / abs url>"
 
-  label:
-    text: "Home"
-    icon: /apple-touch-icon.png
-    iconHeight: 35
+  #注释掉的
+  #label:
+  #  text: "Home"
+  #  icon: /apple-touch-icon.png
+  #  iconHeight: 35
 
   # profile-mode
   profileMode:
@@ -130,6 +130,9 @@ menu:
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
+  goldmark:
+    renderer:
+      unsafe: true
   highlight:
     noClasses: false
     # anchorLineNos: true
