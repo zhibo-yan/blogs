@@ -1,5 +1,5 @@
 baseURL: "https://zhibo-yan.github.io/blogs"
-title: ExampleSite
+title: Zhibo Yan (严志博)
 paginate: 5
 theme: PaperMod
 
@@ -16,8 +16,8 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
+  title: Zhibo Yan (严志博)
+  description: 饮者
   keywords: [Blog, Portfolio, PaperMod]
   author: Me
   # author: ["Me", "You"] # multiple authors
@@ -39,8 +39,8 @@ params:
   comments: false
   hidemeta: false
   hideSummary: false
-  showtoc: false
-  tocopen: false
+  showtoc: true
+  tocopen: true
 
   assets:
     # disableHLJS: true # to disable highlight.js
@@ -136,7 +136,7 @@ markup:
   highlight:
     noClasses: false
     # anchorLineNos: true
-    # codeFences: true
+    codeFences: true
     # guessSyntax: true
     # lineNos: true
     # style: monokai
