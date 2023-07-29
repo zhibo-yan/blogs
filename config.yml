@@ -2,6 +2,7 @@ baseURL: "https://zhibo-yan.github.io/blogs"
 title: Zhibo Yan (严志博)
 paginate: 5
 theme: PaperMod
+languageCode: zh-cn # en-us
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -16,10 +17,8 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Zhibo Yan (严志博)
-  description: 饮者
-  keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  description: zhibo's blog
+  author: zhibo
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -30,8 +29,11 @@ params:
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
+
   ShowWordCount: true
+  VisitCount: true
+
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   disableSpecial1stPost: false
@@ -39,6 +41,8 @@ params:
   comments: false
   hidemeta: false
   hideSummary: false
+
+
   showtoc: true
   tocopen: true
 
