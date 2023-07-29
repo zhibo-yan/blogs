@@ -20,8 +20,10 @@ params:
   description: zhibo's blog
   author: zhibo
   # author: ["Me", "You"] # multiple authors
+
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
+
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
@@ -33,12 +35,15 @@ params:
 
   ShowWordCount: true
   VisitCount: true
+  ShowLastMod: true #显示文章更新时间
 
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false
+
+  comments: true
+  
   hidemeta: false
   hideSummary: false
 
@@ -101,11 +106,6 @@ params:
     hidden: true # hide everywhere but not in structured data
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
-
-  editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
 
   # for search
   # https://fusejs.io/api/options.html
